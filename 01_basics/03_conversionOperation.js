@@ -27,5 +27,15 @@ let b = "34"
 console.log(a+b)
 console.log(Number(a) + Number(b))
 
+console.log("1" + 2 + 2)
+console.log(2 + 2 + "1")
+// jo pehle aayega log use lega
+
+let count = 100
+console.log(count) // 100 aayega
+console.log(count++) // 100 aayega and value 101 ho jayegi
+console.log(++count) // 102 aayega aur value bhi 102 hogi
+
+
 
 
