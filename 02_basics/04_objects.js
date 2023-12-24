@@ -43,3 +43,13 @@ const obj2 = {
   console.log(obj4)
 
 
+
+  const course = {
+    courseName: "javascript",
+    price: 999,
+    courseFaculty: "Gaurav"
+  }
+
+//   syntactical sugar
+const{courseFaculty} = course
+console.log(courseFaculty)
