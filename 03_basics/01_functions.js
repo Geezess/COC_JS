@@ -20,10 +20,10 @@ console.log("Result is ",newResult)
 
 // Another way to write a function is..
 
-const addTwo = function(num){
+const addNum = function(num){
     console.log(num+2)
 }
-addTwo(10)
+addNum(10)
 
 
 
@@ -62,3 +62,21 @@ function getSecondElement(getArray){
 }
 
 getSecondElement(myArray)
+
+
+
+
+
+console.log((addOne(5)))
+
+function addOne(num){
+    return num+1
+}
+// ye declaration of function mai hum kahin pe bhi call krr sakte  hai.
+
+
+const addTwo = function(num){
+    return num+2
+}
+console.log(addTwo(5))
+// ye declaration mai baad mai hi call kr sakte hai coz woh function kisi variable mai store ho rha hai jo baad mai declare hoga.
