@@ -30,7 +30,7 @@ function calculateCartPrice(...num1){
 console.log(calculateCartPrice(200,400,500))
 
 
-
+ 
 
 function useObjects(anyobject){
     console.log(`welcome ${anyobject.username} , the price of course is ${anyobject.price}`) 
@@ -42,3 +42,13 @@ const user = {
 }
 
 useObjects(user)
+
+
+
+myArray = [100, 200, 300, 400]
+
+function getSecondElement(getArray){
+    console.log(getArray[1])
+}
+
+getSecondElement(myArray)
