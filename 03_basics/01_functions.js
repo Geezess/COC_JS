@@ -17,6 +17,16 @@ console.log("Result is ",newResult)
 
 
 
+
+// Another way to write a function is..
+
+const addTwo = function(num){
+    console.log(num+2)
+}
+addTwo(10)
+
+
+
 function calculateCartPrice(...num1){
     console.log(typeof num1)
     // agar ye dots nai lagayenge num1 ke aage to woh type number show krega aur abhi object kyuki array ki tarah kaam kr rha.
